@@ -1,5 +1,5 @@
 const calculate = (num) => {
-  console.log (num*num)
+  return num **2
 };
 
-calculate(10)
+console.log (calculate(10));
